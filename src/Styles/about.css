@@ -1,0 +1,39 @@
+.aboutImage{
+    width: 86.5%;
+    padding-left: 5%;
+    height: 650px;
+}
+.aboutHeading{
+    font-size: 60px;
+    padding-top: 8%;
+    line-height: 65px;
+    font-weight: 500;
+    color: #474747;
+}
+.conversation__row{
+    margin-top: 13%;
+    font-weight: 600;
+    padding-bottom: 5%;
+}
+.conversation__row2{
+    padding-top: 5%;
+    font-weight: 600;
+}
+.button__about{
+    
+    border: 3px solid #474747;
+    width: 70%;
+    padding: 2%;
+    color: #474747;
+    margin-top: 13%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.button__about:hover{
+    border: 3px solid rgb(7, 7, 7);
+    color: black;
+}

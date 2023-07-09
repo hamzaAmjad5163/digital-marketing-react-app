@@ -1,0 +1,33 @@
+.headings__company-name .company__name-para{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 2%;
+    padding-left: 2%;
+    color: white;
+    padding-bottom: 2%;
+}
+.pTwo{
+    flex: 1; /* Allow paragraph to take remaining space */
+  padding-left: 5%;
+    color: #fff;
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 400;
+    
+}
+.image__grid{
+    display: flex;
+  align-items: center;
+}
+.imageStyle{
+    height: 500px;
+    width: 70%;
+    padding-left: 2%;
+}
+
+@media only screen and(max-width: 567px) {
+  .pTwo{
+    display: none !important;
+  }  
+  
+}

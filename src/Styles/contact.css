@@ -1,0 +1,133 @@
+
+.contact__container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    margin-top: 5%;
+}
+.contact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    
+}
+.contact__option{
+    margin-bottom: 10%;
+    
+    margin-right: 2%;
+    background: rgba(59, 30, 35, .7);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+    padding: 2.5% 0;
+}
+.contact__option i{
+    font-size: 50px;
+}
+.contact__option:hover{
+    background: transparent;
+    border-color: rgb(2, 48, 71);
+    color: rgb(2, 48, 71);
+}
+.contact__option .contact__anchor{
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-top: 0.7rem;
+}
+.contact__option .contact__anchor:hover{
+    border-bottom: 2px solid rgb(2, 48, 71);
+}
+.contact__us{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contact__input-box,
+.message__box{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent; 
+    
+    border: 2px solid rgb(2, 48, 71);
+    border: 2px solid rgb(2, 48, 71);
+    resize: none;
+}
+.message__box{
+    
+    margin-top: 14px;
+}
+.send__btn{
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 2%;
+    background: rgba(59, 30, 35, .7);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#contact .contact__h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120px;
+    color: rgba(59, 30, 35, .7);
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 567px){
+    .contact__h1{
+        font-size: 40px !important;
+        font-weight: 100;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .send__btn{
+        margin-bottom: 21%;
+    }
+    .contact__input-box, 
+    .message__box{
+        width: 100%;
+        padding: 0.2rem;
+        border-radius: 0.5rem;
+        background: transparent; 
+        border: 2px solid rgb(2, 48, 71);
+        resize: none;
+        font-size: 0.8rem;
+    }
+    .contact__option .contact__anchor{
+        font-size: 0.6rem;
+    }
+    .contact__option .contact__anchor:hover{
+        
+        border-bottom: none;
+    }
+    .contact__container{
+        
+        display: grid;
+        grid-template-columns: 30% 58%;
+        gap: -2%;
+        margin-top: 5%;
+    }
+    .send__btn{
+        font-size: 0.8rem;
+    }
+    
+    .contact__option i{
+        font-size: 20px;
+    }
+    
+    .contact__option .contact__h4{
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    .contact__option .contact__h5{
+        display: none;
+    }
+}
