@@ -10,9 +10,7 @@ const Footer = () => {
     <div className="copyright">
       © 2023 Digital Marketing. All rights reserved.
     </div>
-    <div className="canva">
-     Designed with <span>Canva</span>
-    </div>
+    
   </footer>
           
             

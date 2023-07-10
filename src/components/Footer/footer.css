@@ -2,14 +2,14 @@
 .footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: black;
     padding-left: 5%;
     
   }
 
 .copyright {
-    text-align: start;
+    text-align: center;
   font-size: 14px;
   margin-bottom: 2%;
   color: #fff;
