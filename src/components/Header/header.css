@@ -9,7 +9,10 @@
 }
 .Back{
     font-size: 25px;
-
+    margin-left: 400%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .nav__wrapper{
     display: flex;
