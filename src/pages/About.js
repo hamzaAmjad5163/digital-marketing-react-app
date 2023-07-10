@@ -2,6 +2,7 @@ import React from "react";
 import AboutImage from "../assets/images/about.jpg";
 import { Row, Col } from "reactstrap";
 import '../Styles/about.css';
+import { HashLink as Link } from "react-router-hash-link";
 const About = () => {
   const renderHeading = (heading, value) => {
     return (
@@ -13,6 +14,7 @@ const About = () => {
 
   return (
     <div
+    id="about"
       className="p-5"
       style={{
         background: "#FDFDFD",
@@ -20,6 +22,7 @@ const About = () => {
         height: "100%",
       }}
     >
+    <Link to='#about'></Link>
       <Row>
         <Col xl={6} lg={6} md={12} xs={12} sm={12} className="pt-3">
           <p

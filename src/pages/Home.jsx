@@ -12,7 +12,7 @@ import About from './About';
 const Home = () => {
   return (
     <Helmet>
-        <section className="hero__section">
+        <section className="hero__section" id="home">
         <div>
         <div
           style={{
@@ -125,6 +125,7 @@ const Home = () => {
               
                <span style={{whiteSpace:"nowrap"}} >REQUEST A CONSULTATION</span>
               </Link>
+              
             </div>
           </div>
         </div>
